@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="Tsaritsa-Prjkt" fetch="https://github.com/Tsaritsa-Prjkt" />
+
+    <!-- Device -->
+    <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="Tsaritsa-Prjkt" revision="16-evo" />
+    <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="Tsaritsa-Prjkt" revision="lineage-24.0" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="Tsaritsa-Prjkt" revision="lineage-24.0" />
+    <project path="vendor/xiaomi/munch-firmware" name="android_vendor_xiaomi_munch-firmware" remote="Tsaritsa-Prjkt" revision="17" />
+    <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="Tsaritsa-Prjkt" revision="lineage-24.0" />
+
+    <!-- MIUI Camera -->
+    <project path="vendor/xiaomi/miuicamera" name="android_vendor_xiaomi_miuicamera" remote="Tsaritsa-Prjkt" revision="16" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Tsaritsa-Prjkt" revision="lineage-24.0" />
+
+    <!-- Dolby -->
+    <project path="hardware/dolby" name="android_hardware_dolby" remote="Tsaritsa-Prjkt" revision="lineage-24.0" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="Tsaritsa-Prjkt" revision="lineage-24.0" />
+
+    <!-- GameBar -->
+    <project path="packages/apps/GameBar" name="android_packages_apps_GameBar" remote="Tsaritsa-Prjkt" revision="lineage-23.2" />
+
+    <!-- Key -->
+    <project path="vendor/lineage-priv/keys" name="android_vendor_lineage-priv_keys" remote="Tsaritsa-Prjkt" revision="lineage-24.0" />
+</manifest>
